@@ -1,9 +1,11 @@
 package com.pxy.dao.impl;
 
 import com.pxy.dao.ICalculator;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Scope
 public class CalculatorImpl implements ICalculator {
 
     @Override
