@@ -4,14 +4,14 @@ import com.pxy.dao.ICalculator;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
-@Repository("calculator")
+@Repository("calculator1")
 @Scope
-public class CalculatorImpl implements ICalculator {
+public class CalculatorImpl_1 implements ICalculator {
 
     @Override
     public void add(int a,int c) {
         int b= a+c;
-        System.out.println(b);
+        System.out.println(a+"+"+c+"="+b);
     }
 
     @Override
